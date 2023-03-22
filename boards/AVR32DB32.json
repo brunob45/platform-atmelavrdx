@@ -4,7 +4,8 @@
     "extra_flags": "-DARDUINO_AVR_AVR32DB32 -DARDUINO_avrdb",
     "f_cpu": "24000000L",
     "mcu": "avr32db32",
-    "variant": "32pin-standard"
+    "variant": "32pin-standard",
+    "millistimer": "B2"
   },
   "hardware": {
     "oscillator": "internal"
@@ -12,6 +13,11 @@
   "frameworks": [
     "arduino"
   ],
+  "bootloader": {
+    "class": "optiboot_32dx",
+    "port": "no_bootloader",
+    "entrycond": "extrf"
+  },
   "name": "AVR32DB32",
   "upload": {
     "maximum_ram_size": 4096,

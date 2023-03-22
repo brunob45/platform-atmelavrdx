@@ -4,7 +4,8 @@
     "extra_flags": "-DARDUINO_AVR_AVR64DD28 -DARDUINO_avrdd",
     "f_cpu": "24000000L",
     "mcu": "avr64dd28",
-    "variant": "28pin-standard"
+    "variant": "28pin-standard",
+    "millistimer": "B2"
   },
   "hardware": {
     "oscillator": "internal"
@@ -12,6 +13,11 @@
   "frameworks": [
     "arduino"
   ],
+  "bootloader": {
+    "class": "optiboot_32dd",
+    "port": "no_bootloader",
+    "entrycond": "extrf"
+  },
   "name": "AVR64DD28",
   "upload": {
     "maximum_ram_size": 8192,

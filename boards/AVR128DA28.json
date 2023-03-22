@@ -4,7 +4,8 @@
     "extra_flags": "-DARDUINO_AVR_AVR128DA28 -DARDUINO_avrda",
     "f_cpu": "24000000L",
     "mcu": "avr128da28",
-    "variant": "28pin-standard"
+    "variant": "28pin-standard",
+    "millistimer": "B2"
   },
   "hardware": {
     "oscillator": "internal"
@@ -12,6 +13,11 @@
   "frameworks": [
     "arduino"
   ],
+  "bootloader": {
+    "class": "optiboot_32dx",
+    "port": "no_bootloader",
+    "entrycond": "extrf"
+  },
   "name": "AVR128DA28",
   "upload": {
     "maximum_ram_size": 16384,
