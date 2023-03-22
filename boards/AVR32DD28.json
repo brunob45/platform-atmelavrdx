@@ -16,7 +16,7 @@
   "bootloader": {
     "class": "optiboot_32dd",
     "port": "no_bootloader",
-    "entrycond": "extrf"
+    "entrycond": "extr"
   },
   "name": "AVR32DD28",
   "upload": {
