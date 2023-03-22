@@ -14,7 +14,7 @@
     "arduino"
   ],
   "bootloader": {
-    "class": "optiboot_64dx",
+    "class": "optiboot_128dx",
     "port": "no_bootloader",
     "entrycond": "extrf"
   },
