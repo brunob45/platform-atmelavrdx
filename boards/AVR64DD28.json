@@ -12,6 +12,11 @@
   "frameworks": [
     "arduino"
   ],
+  "bootloader": {
+    "class": "optiboot_64dd",
+    "port": "no_bootloader",
+    "entrycond": "extr"
+  },
   "name": "AVR64DD28",
   "upload": {
     "maximum_ram_size": 8192,

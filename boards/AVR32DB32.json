@@ -12,6 +12,11 @@
   "frameworks": [
     "arduino"
   ],
+  "bootloader": {
+    "class": "optiboot_32dx",
+    "port": "no_bootloader",
+    "entrycond": "extr"
+  },
   "name": "AVR32DB32",
   "upload": {
     "maximum_ram_size": 4096,

@@ -12,6 +12,11 @@
   "frameworks": [
     "arduino"
   ],
+  "bootloader": {
+    "class": "optiboot_128dx",
+    "port": "no_bootloader",
+    "entrycond": "extr"
+  },
   "name": "AVR128DB28",
   "upload": {
     "maximum_ram_size": 16384,
