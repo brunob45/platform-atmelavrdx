@@ -13,9 +13,7 @@
     "arduino"
   ],
   "bootloader": {
-    "class": "optiboot_32dx",
-    "port": "no_bootloader",
-    "entrycond": "extr"
+    "class": "optiboot_32dx"
   },
   "name": "AVR32DA48",
   "upload": {

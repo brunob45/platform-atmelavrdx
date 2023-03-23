@@ -13,9 +13,7 @@
     "arduino"
   ],
   "bootloader": {
-    "class": "optiboot_64dx",
-    "port": "no_bootloader",
-    "entrycond": "extr"
+    "class": "optiboot_64dx"
   },
   "name": "AVR64DB28",
   "upload": {

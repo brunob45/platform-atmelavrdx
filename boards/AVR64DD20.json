@@ -13,9 +13,7 @@
     "arduino"
   ],
   "bootloader": {
-    "class": "optiboot_64dd",
-    "port": "no_bootloader",
-    "entrycond": "extr"
+    "class": "optiboot_64dd"
   },
   "name": "AVR64DD20",
   "upload": {

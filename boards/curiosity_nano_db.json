@@ -13,9 +13,7 @@
     "arduino"
   ],
   "bootloader": {
-    "class": "optiboot_128dx",
-    "port": "no_bootloader",
-    "entrycond": "extr"
+    "class": "optiboot_128dx"
   },
   "name": "Curiosity Nano AVR128DB48",
   "upload": {

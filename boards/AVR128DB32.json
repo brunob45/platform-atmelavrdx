@@ -13,9 +13,7 @@
     "arduino"
   ],
   "bootloader": {
-    "class": "optiboot_128dx",
-    "port": "no_bootloader",
-    "entrycond": "extr"
+    "class": "optiboot_128dx"
   },
   "name": "AVR128DB32",
   "upload": {
