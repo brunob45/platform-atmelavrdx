@@ -13,9 +13,7 @@
     "arduino"
   ],
   "bootloader": {
-    "class": "optiboot_dx128",
-    "port": "no_bootloader",
-    "entrycond": "extr"
+    "class": "optiboot_dx128"
   },
   "name": "AVR128DA32",
   "upload": {

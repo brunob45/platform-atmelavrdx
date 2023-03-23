@@ -13,9 +13,7 @@
     "arduino"
   ],
   "bootloader": {
-    "class": "optiboot_dx64",
-    "port": "no_bootloader",
-    "entrycond": "extr"
+    "class": "optiboot_dx64"
   },
   "name": "AVR64DA48",
   "upload": {
