@@ -12,6 +12,11 @@
   "frameworks": [
     "arduino"
   ],
+  "bootloader": {
+    "class": "optiboot_dx128",
+    "port": "no_bootloader",
+    "entrycond": "extr"
+  },
   "name": "AVR128DB64",
   "upload": {
     "maximum_ram_size": 16384,
