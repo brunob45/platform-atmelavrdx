@@ -12,6 +12,9 @@
   "frameworks": [
     "arduino"
   ],
+  "bootloader": {
+    "class": "optiboot_dx128"
+  },
   "name": "Curiosity Nano AVR128DB48",
   "upload": {
     "maximum_ram_size": 16384,
